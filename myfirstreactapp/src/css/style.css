@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  padding: 10px;
+  margin: 10px;
+}
+button {
+  color: bisque;
+  background-color: green;
+  height: 30px;
+  margin: 10px;
+}
+.DisplayName {
+  border: 1px solid #5f8eb7;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  width: 50%;
+}
+form {
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid forestgreen;
+  text-align: center;
+}
+label {
+  margin: 10px;
+}
+.Namefield {
+  padding: 10px;
+}
+
+.textfield {
+  width: 100px;
+  margin: 10px;
+}
+.Nametiles {
+  display: flex;
+}

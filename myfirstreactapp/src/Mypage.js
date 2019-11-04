@@ -29,15 +29,10 @@ class Clock extends React.Component {
   render() {
     return (
       <div>
-        <h1>Now time is : {this.state.date.toLocaleTimeString()}</h1>
+        <span>Now time is : {this.state.date.toLocaleTimeString()} </span>
       </div>
     );
   }
 }
 
-// class Welcome extends React.Component {
-//   render() {
-//     return <h2>Hello {this.props.name}</h2>;
-//   }
-// }
 export default Clock;
